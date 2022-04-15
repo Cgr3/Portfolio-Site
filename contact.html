@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Carl Reynolds - Contact Info</title>
+  <!-- Add image for tab bar -->
+  <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon"/>
+  <link rel="stylesheet" type="text/css"  href="css/normalize.css">
+  <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Noto+Serif&family=Roboto+Mono:ital,wght@1,100&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css"  href="css/style.production.css">
+</head>
+
+<body>
+  <!-- Header including the logo and the main navigation -->
+  <header class="page-header">
+    <!-- Add image of logo -->
+    <img src="img/logo.png" alt="Logo" class="page-header__item">
+    <nav class="main-navigation page-header__item">
+      <ul role="menubar" class="navigation-list">
+        <li role="presentation">
+          <a href="index.html" role="menuitem" class="navigation-list__item navigation-list__item--active">Home</a>
+        </li>
+        <li role="presentation">
+          <a href="work.html" role="menuitem" class="navigation-list__item">Work</a>
+        </li>
+        <li role="presentation">
+          <a href="about.html" role="menuitem" class="navigation-list__item">Skills</a>
+        </li>
+        <li role="presentation">
+          <a href="contact.html" role="menuitem" class="navigation-list__item">Contact</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <div class="profile">
+    Carl Reynolds III <br>
+    Oneida 13421 <br>
+    New York <br>
+    <br>
+    <!-- Contact links -->
+    Phone: <a href="Tel: +13157411264">1-315-741-1264</a> <br>
+    Skype: <a href="skype:carl.reynolds62">skype:carl.reynolds62</a> <br>
+    Email: <a href="mailto:carlreynolds61@yahoo.com">carlreynolds61@yahoo.com</a> <br>
+    <a href="mailto:carlreynolds61@yahoo.com">Contact Me!</a>
+  </div>
+    <form action="" method="post">
+      <label class="standard-label" for="contact-email">E-mail: </label>
+      <input type="email" id="contact-email" required>
+
+      <label class="standard-label" for="phone-number">Telephone:
+      <input type="tel" id="phone-number" pattern="/d{3}[/-]/d{3}[/-]/d{4}">
+
+      <label class="standard-label" for="recieved-message">Message: </label>
+      <textarea id="recieved-message" maxlength="240" required></textarea>
+      <input type="submit" id="recieved-message" value="Send message">
+    </form>
+  <footer class="page-footer">
+    <p>Find me on</p>
+    <div class="social-media">
+      <!-- Git Hub logo -->
+      <img src="img/github.svg" alt="Git Hub Logo">
+      <!-- Twitter logo -->
+      <img src="img/twitter.svg" alt="Twitter Logo">
+      <!-- LinkedIn logo -->
+      <img src="img/linkedin.svg" alt="LinkedIn Logo">
+    </div>
+  </footer>
+  <script src="js/tota11y.min.js"></script>
+</body>
+
+</html>
