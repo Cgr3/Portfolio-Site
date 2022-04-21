@@ -1,0 +1,6 @@
+Linters: w3c validator
+
+Phone number insert (contact me) not working properly
+Missing <a> tags
+Bad spacing
+Missing <label> tag
