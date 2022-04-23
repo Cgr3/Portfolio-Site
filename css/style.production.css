@@ -1,7 +1,7 @@
 /*
 * Prefixed by https://autoprefixer.github.io
-* PostCSS: v8.3.6,
-* Autoprefixer: v10.3.1
+* PostCSS: v8.4.12,
+* Autoprefixer: v10.4.4
 * Browsers: last 4 version
 */
 
@@ -98,7 +98,7 @@ button {
   color: #fff;
   text-decoration: none;
   /*adds spacing to the button (this will be discussed more in-depth later) */
-  padding: 10;
+  padding: 10px;
   border-radius: 3px;
   /* gives the button a bottom border with a width of 2px, a type of solid, and a color in RGBA format */
   border-bottom: 2px solid rgba(0 0, 0, 0.3);
@@ -261,7 +261,7 @@ button:hover, button:focus {
   background-color: #357b70;
   color: #fff;
   text-decoration: none;
-  padding: 10;
+  padding: 10px;
   border-radius: 3px;
   /* Width of the bottom border */
   border-bottom: 2px solid rgba(0, 0, 0, 0.3);
@@ -280,7 +280,7 @@ button {
   background-color: #357b70;
   color: #fff;
   text-decoration: none;
-  padding: 10;
+  padding: 10px;
   border-radius: 3px;
   /* Width of the bottom border */
   border-bottom: 2px solid rgba(0, 0, 0, 0.3);
