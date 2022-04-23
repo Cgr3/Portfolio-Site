@@ -183,6 +183,10 @@ button:hover, button:focus {
   list-style-type: var(list-style-type);
 }
 
+.work_label {
+  text-align: center;
+}
+
 .grid {
   display: -ms-grid;
   display: grid;
