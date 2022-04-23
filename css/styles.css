@@ -218,6 +218,12 @@ button:hover, button:focus {
   .grid {
     grid-gap: 10px;
   }
+}
+@media all and (min-width: 750px) {
+  .grid {
+    max-width: 1000px;
+    margin:auto;
+  }
   .grid__item:last-child {
     grid-column: auto / auto;
     grid-row: auto / auto;
