@@ -179,6 +179,20 @@ button:hover, button:focus {
   text-decoration: none;
 }
 
+.input-wrapper {
+  margin-bottom: 10px;
+}
+
+label {
+  display: inline-block;
+  min-width: 75px;
+}
+
+.error-message {
+  color: red;
+  font-size: 0.8em;
+}
+
 .about__item {
   list-style-type: var(list-style-type);
 }
