@@ -51,4 +51,4 @@
   });
 
   emailInput.addEventListener('input', validateEmail);
-}();
+}());
